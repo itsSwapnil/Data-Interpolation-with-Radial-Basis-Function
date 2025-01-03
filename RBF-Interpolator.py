@@ -1,11 +1,12 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, last, first, array
+from pyspark.sql.functions import col, last, first, array,to_date
 from pyspark.sql.window import Window
 from pyspark.sql.types import ArrayType, FloatType
 from pyspark.sql.functions import udf
 from scipy.interpolate import RBFInterpolator
 import numpy as np
 import pandas as pd
+from pyspark.sql import functions as F
 
 spark = SparkSession.builder.appName("Battery-development-project").getOrCreate()
 
