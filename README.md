@@ -71,6 +71,15 @@ The output CSV contains interpolated values for all sensor data columns, includi
 
 Feel free to fork this repository, submit pull requests, or report issues for any suggestions or improvements.
 
+---
+🙋 Author
+
+LinkedIn: http://www.linkedin.com/in/SwapnilTaware
+
+GitHub: https://github.com/itsSwapnil
+
+---
+
 # License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
