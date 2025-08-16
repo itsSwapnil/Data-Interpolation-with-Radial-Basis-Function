@@ -43,7 +43,7 @@ Update the data_path_csv variable in the script if the file path differs.
 
 ├── battery_interpolation.py    # Main PySpark script
 
-├── sample_battery_data.csv     # Input data file
+├── /data/*.csv                 # Input data file
 
 ├── requirements.txt            # required libraries to pip install
 
